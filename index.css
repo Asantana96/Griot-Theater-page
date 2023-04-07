@@ -124,7 +124,6 @@ div.bg-text {
 
 .map {
     width: 100%;
-border:yellow solid;
     padding:10px;
 }
 
@@ -162,7 +161,6 @@ p {
 
 .material-symbols-outlined {
     padding-right: 4px;
-    color: rgb(225, 185, 0);
     font-variation-settings:
         'FILL' 0,
         'wght' 600,
