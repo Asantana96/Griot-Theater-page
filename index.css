@@ -1,4 +1,4 @@
-#navbarNavAltMarkup{
+#navbarNavAltMarkup {
     justify-content: center;
     font-size: 10pt;
     margin: 20px;
@@ -6,184 +6,203 @@
     font-family: 'Comfortaa', cursive;
 }
 
-p.title{
+p.title {
     position: absolute;
     margin-top: 21px;
     color: aliceblue;
     font-size: 20px;
     margin-left: 0px;
     font-family: 'Comfortaa', cursive;
-    
+    align-items: center;
 }
 
 div a.nav-link {
     color: aliceblue;
 }
 
-div a.nav-link:hover{
+div a.nav-link:hover {
     color: gold;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: aliceblue;
     padding-left: 50px;
     font-family: 'Comfortaa', cursive;
 }
 
-.container-fluid{
+.container-fluid {
     background-color: black;
 }
 
-.navbar{
+.navbar {
     padding: 0px;
 }
 
-button{
-    position: absolute;
-    top: 50%;
-    right: 0;
-    margin: 15px;
-}
-
-.top-container{
+.top-container {
     width: 100%;
     position: relative;
 }
 
-.bg-img{
+.bg-img {
     position: relative;
     width: 100%;
     height: auto;
+    align-items: center;
 }
 
-.bg-img  {
+.bg-img {
     width: 100%;
     height: auto;
 }
 
-div.bg-text{
-    position: relative;;
+div.bg-text {
+    position: relative;
+    ;
     color: aliceblue;
     text-align: center;
-    align-self:flex-start;  
-    width:100%;
-    bottom:440px;
-    font-size:80pt;
+    align-self: flex-start;
+    width: 100%;
+    bottom: 440px;
+    font-size: 80pt;
     height: 0;
+}
+.mid-container {
+    font-family: 'Comfortaa', cursive;
     
-}
-.date{
-    position: relative;
+  }
+  
+  .show {
+    display: flex;
+    justify-content: center;
+
+  }
+  .datebox{
+    display:flex;
+    justify-content: center;
+  }
+  .date {
+    background-color:rgba(251, 249, 249, 0.771);
+    height: fit-content;
+    width:55%;
     font-family: 'Comfortaa', cursive;
-    margin-top:60px;
-    margin-bottom:20px;
-    border: 1px solid;
-    background-color:rgba(248, 248, 248, 0.768);
-    width: 600px;
-    padding-left:35px;
-}
-.mid-container{
-    width: 600px;
-    height: 700;
-    position: relative;
-    left:30%;
-    right:60%;
-    margin-top:10px;
-    margin-bottom:20px;
+    height: fit-content;
+    padding: 10px;
+    border: 5px black ;
+  }
+  
+  .logo2 {
+
+    width: 150px;
+  }
+  
+  .mid {
     font-family: 'Comfortaa', cursive;
-}
-button{
+    padding: 7px;
+  }
+  
+  .mid-button {
+    margin-top:55px;
     color: aliceblue;
     background-color: rgb(225, 185, 0);
-    position:relative;
-    bottom:270px;
-    left:490px;
-    position: relative;
-    bottom:125px
+  }
+  
+  .hr {
 
-}
-
-.logo2{
-    width:150px;
-    margin:0;
-    padding:0;
-    top:0;
-}
-.mid{
-    position:relative;
-    left:200px;
-    bottom:150px;
-    font-size:10pt;
-    height:0;
-    padding-bottom: 0;
-    font-family: 'Comfortaa', cursive;
-}
-.hr{
-    position: relative;
-    margin:0;
-    padding:0px;
-    bottom:50px;
-}
-.hr{
-    margin:0;
-}
-.map{
-    padding-top:20px;
-    padding-left:220px;
-    width:300px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.low-container{
-    position: relative;
-    color:aliceblue;
-    background-color:black;
-    height:250px;
+    grid-area: hr;
+    margin: 0;
+    padding: 0;
+  }
+.low-container {
+    display:flex;
+    color: aliceblue;
+    background-color: black;
+    height: 250px;
     margin-bottom: 0;
     padding-bottom: 0;
     font-family: 'Comfortaa', cursive;
-    
-    }
-.loc a{
-    color:aliceblue;
+}
+
+.map {
+    width: 100%;
+border:yellow solid;
+    padding:10px;
+}
+
+.loc a {
+    color: aliceblue;
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
 }
+
 .loc a:hover {
-  color: gold;
+    color: gold;
 }
-.low{
-position:relative;
-display:flex;
-flex-direction:row;
-justify-content: right;
-bottom:150px;
-right:200px;
-font-family: 'Comfortaa', cursive;
-margin-bottom: 0;
-padding-bottom: 0;
-}
-li{
-    list-style-type:none;
-    font-size:10pt;
+
+.low {
+    display: flex;
+    justify-content: flex-end;
     font-family: 'Comfortaa', cursive;
 }
-h3{
+
+li {
+    list-style-type: none;
+    font-size: 10pt;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
     text-align: left;
     font-family: 'Comfortaa', cursive;
 }
-p{
+
+p {
     font-family: 'Comfortaa', cursive;
 }
 
+
 .material-symbols-outlined {
-    padding-right:4px;
-    color:rgb(225, 185, 0);
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 600,
-  'GRAD' 0,
-  'opsz' 48
-  
+    padding-right: 4px;
+    color: rgb(225, 185, 0);
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 48
 }
 
+@media screen and (max-width: 500px) {
+    div.bg-text {
+        font-size: 70px;
+    }
+
+    .logo2 {
+        display: none;
+    }
+  
+    .low-container{
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .low-link{
+        display: none;
+    }
+    .low-text{
+        width:100%;
+        margin-left:45px;
+    }
+}
+@media screen and (max-width: 550px){
+    .map{
+        display: none;
+    
+    }
+
+}
+@media screen and (max-width: 991px){
+    p.title{
+        flex:direction;
+        left:45%;
+        border:red solid;
+    }
+}
