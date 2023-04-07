@@ -74,6 +74,7 @@ div.bg-text {
   .show {
     display: flex;
     justify-content: center;
+    padding:10px;
 
   }
   .datebox{
@@ -120,6 +121,7 @@ div.bg-text {
     margin-bottom: 0;
     padding-bottom: 0;
     font-family: 'Comfortaa', cursive;
+    padding:20px;
 }
 
 .map {
